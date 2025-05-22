@@ -17,7 +17,6 @@ app.get('/test-image', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/images/logo.png'));
 });
 
-
 // GETリクエスト
 app.get('/', (req, res) => {
   res.send({
